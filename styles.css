@@ -1,80 +1,89 @@
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/* Navigation Bar styles */
-nav {
+/* navigation bar */
+nav{
+    height: 80px;
+    width: auto;
     background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+    background-image: url(main.jpg);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+img{
+    border-radius: 50%;
 }
-
-nav ul li a {
-    color: #fff;
+.navbtn{
+    color: aliceblue;
+    background-color: #4e4b4b;
+    padding: 8px 15px;
+    border-radius: 5px;
     text-decoration: none;
-    padding: 5px 10px;
 }
+/* Header section */
 
-/* Header styles */
-header {
-    text-align: center;
-    padding: 100px;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-/* Section styles */
-section {
-    padding: 50px;
-    background-color: #fff;
-    color: #333;
-}
-
-/* Form styles */
-form {
+header{
+    height: 200px;
+    background-color: #4e4b4b;
+    color: rgb(17, 17, 17);
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(nature.jpg);
+    background-size: cover;
 }
 
-form input, form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.thought{
+    color: aliceblue;
 }
-
-/* Button styles */
-.btn {
+.btn{
     background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    color: aliceblue;
+    padding: 10px 18px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
+}
+/* content side */
+.content{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    background-image: url(sky.jpg);
+    background-size: cover;
+
+}
+h1{
+    color: aqua;
 }
 
-/* Footer styles */
-footer {
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+input, textarea{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(60, 60, 68);
+    height: 40px;
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
 }
