@@ -1,12 +1,12 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
 /* navigation bar */
 nav{
-    height: 11vh;
+    height: 80px;
     width: auto;
     background-color: #333;
     background-image: url(main.jpg);
@@ -15,14 +15,15 @@ nav{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 
 img{
     border-radius: 50%;
-    height: 2.1rem;
+    height: 3rem;
 }
 .navbtn{
     color: aliceblue;
@@ -46,18 +47,18 @@ header{
 }
 
 .thought{
-    color: aliceblue;
+    color: rgb(112, 189, 49);
 }
 .btn{
     background-color: #333;
-    color: aliceblue;
+    color: rgb(251, 255, 240);
     padding: 10px 18px;
     text-decoration: none;
     border-radius: 5px;
 }
 /* content side */
 .content{
-    height: 900px;
+    height: 100rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -79,12 +80,91 @@ form{
 }
 
 input, textarea{
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
 footer{
     background-color: rgb(60, 60, 68);
-    height: 40px;
+    height: 4em;
     text-align: center;
+}
+section{
+    padding: 1em;
+}
+p{
+    padding: 1em;
+}
+/* For resposivness of navbar  */
+@media(max-width:350px){
+    nav{
+        height: 65px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    
+    img{
+        border-radius: 50%;
+        height: 2.3rem;
+    }
+    .content{
+        height: 80rem;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 8px 15px;
+        border-radius: 5px;
+    }
+    .thought{
+        font-size: 0.8rem;
+    }
+    .content{
+        height: 80rem;
+        font-size: 18px;
+        
+    }
+}
+@media(max-width:286px){
+    nav{
+        height: 60px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    
+    img{
+        border-radius: 50%;
+        height: 2.1rem;
+    }
+    .content{
+        height: 70rem;
+        font-size: 12px;
+    }
+    .btn{
+        padding: 6px 12px;
+        border-radius: 5px;
+    }
+    .thought{
+        font-size: 0.6rem;
+    }
+    .content{
+        height: 70rem;
+        font-size: 16px;
+        
+    }
+    h1{
+        font-size: 1.67rem;
+    }
+    h2{
+        font-size: 1.27rem;
+    }
 }
