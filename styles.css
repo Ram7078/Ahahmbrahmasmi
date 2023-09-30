@@ -80,6 +80,7 @@ form{
 input, textarea{
     padding: 5px 10px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 footer{
