@@ -6,7 +6,7 @@
 
 /* navigation bar */
 nav{
-    height: 80px;
+    height: 11vh;
     width: auto;
     background-color: #333;
     background-image: url(main.jpg);
@@ -15,15 +15,14 @@ nav{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 1rem;
     align-items: center;
-    font-size: 1.2rem;
 }
 
 
 img{
     border-radius: 50%;
-    height: 3rem;
+    height: 2.1rem;
 }
 .navbtn{
     color: aliceblue;
