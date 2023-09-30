@@ -6,7 +6,7 @@
 
 /* navigation bar */
 nav{
-    height: 80px;
+    height: 11vh;
     width: auto;
     background-color: #333;
     background-image: url(main.jpg);
@@ -22,11 +22,12 @@ nav{
 
 img{
     border-radius: 50%;
+    height: 2.1rem;
 }
 .navbtn{
     color: aliceblue;
     background-color: #4e4b4b;
-    padding: 8px 15px;
+    padding: 0.3rem;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -80,7 +81,6 @@ form{
 input, textarea{
     padding: 5px 10px;
     border-radius: 5px;
-    border: 1px solid black;
 }
 
 footer{
