@@ -1,6 +1,6 @@
 *{
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0px;
+    margin: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -15,15 +15,14 @@ nav{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 20px;
     align-items: center;
-    font-size: 1.2rem;
 }
 
 
 img{
     border-radius: 50%;
-    height: 3rem;
+    height: 2.1rem;
 }
 .navbtn{
     color: aliceblue;
@@ -33,7 +32,6 @@ img{
     text-decoration: none;
 }
 /* Header section */
-
 header{
     height: 200px;
     background-color: #4e4b4b;
@@ -47,18 +45,18 @@ header{
 }
 
 .thought{
-    color: rgb(112, 189, 49);
+    color: aliceblue;
 }
 .btn{
     background-color: #333;
-    color: rgb(251, 255, 240);
+    color: aliceblue;
     padding: 10px 18px;
     text-decoration: none;
     border-radius: 5px;
 }
 /* content side */
 .content{
-    height: 100rem;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -66,12 +64,10 @@ header{
     font-size: 20px;
     background-image: url(sky.jpg);
     background-size: cover;
-
 }
 h1{
     color: aqua;
 }
-
 form{
     display: flex;
     flex-direction: column;
@@ -80,22 +76,18 @@ form{
 }
 
 input, textarea{
-    padding: 0.5rem 1rem;
+    padding: 5px 10px;
     border-radius: 5px;
 }
 
 footer{
     background-color: rgb(60, 60, 68);
-    height: 4em;
+    height: 40px;
     text-align: center;
 }
 section{
-    padding: 1em;
+    padding: 10px;
 }
-p{
-    padding: 1em;
-}
-
 /* For resposivness of navbar  */
 @media(max-width:350px){
     nav{
